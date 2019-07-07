@@ -5,9 +5,9 @@ This was *much* easier than the corresponding SpringMVC version.
 
 This project uses ReactJS, using AngularJS or any other client framework should be very similar.
 
-If you're looking for an equivalent AngularJS version, check out [spa-vertx-angular](https://github.com/caprica/spa-vertx-angular).
+If you're looking for an equivalent AngularJS version, check out [spa-vertx-angular](https://github.com/caprica/spa-vertx-angular). [Coming soon]
 
-If you're looking for an equivalent VueJS version, check out [spa-vertx-vue](https://github.com/caprica/spa-vertx-vue).
+If you're looking for an equivalent VueJS version, check out [spa-vertx-vue](https://github.com/caprica/spa-vertx-vue). [Coming soon]
 
 Anyway, here it is, a skeleton project for a single page web application using Vert.x for the middle tier.
 
