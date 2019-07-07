@@ -5,9 +5,9 @@ This was *much* easier than the corresponding SpringMVC version.
 
 This project uses ReactJS, using AngularJS or any other client framework should be very similar.
 
-If you're looking for an equivalent AngularJS version, check out [spa-vertx-angular](https://github.com/caprica/spa-vertx-angular). [Coming soon]
+If you're looking for an equivalent AngularJS version, check out [spa-vertx-angular](https://github.com/caprica/spa-vertx-angular).
 
-If you're looking for an equivalent VueJS version, check out [spa-vertx-vue](https://github.com/caprica/spa-vertx-vue). [Coming soon]
+If you're looking for an equivalent VueJS version, check out [spa-vertx-vue](https://github.com/caprica/spa-vertx-vue).
 
 Anyway, here it is, a skeleton project for a single page web application using Vert.x for the middle tier.
 
@@ -87,7 +87,7 @@ already been applied in this project):
 "proxy": "http://localhost:8080"
 ```
 
-You may need to adjust the port number, in this case 8080 is the port number used by the Jetty container launched
+You may need to adjust the port number, in this case 8080 is the port number used by the Vert.x server launched
 by the aforementioned maven command.
 
 And then as usual to run the development version of the application (use port 3000 by default rather than 8080):
