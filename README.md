@@ -30,7 +30,7 @@ There is no cache control for the static resources, you might like to consider t
 You can run this project from a shell/terminal, simply type:
 
 ```
-FIXME PENDING NEW INSTRUCTIONS FOR VERT.X AND MAVEN
+mvn exec:java
 ```
 
 
