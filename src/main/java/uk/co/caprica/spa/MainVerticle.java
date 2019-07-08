@@ -49,7 +49,7 @@ public class MainVerticle extends AbstractVerticle {
         // Catch-all route, anything unmatched is sent to the SPA main page for client-side routing (we can't just
         // redirect to "/" and use the prior static handler mapping as this would strip the request path required for
         // client-side routing)
-        router.get().handler(routingContext -> routingContext.response().sendFile("index.html").end());
+        router.get().handler(routingContext -> routingContext.response().sendFile("app/index.html").end());
 
         // Register a business service
         vertx.deployVerticle(new UserService(new MemoryUserRepository()));
